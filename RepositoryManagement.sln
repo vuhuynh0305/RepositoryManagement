@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryManagement", "RepositoryManagement\RepositoryManagement.csproj", "{BEF7D57D-80BA-48A5-B493-B5543E64797D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryWebAPI", "RepositoryWebAPI\RepositoryWebAPI.csproj", "{7760A270-F6A7-4C33-BB53-E318AB991858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryDataAccess", "RepositoryDataAccess\RepositoryDataAccess.csproj", "{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BEF7D57D-80BA-48A5-B493-B5543E64797D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEF7D57D-80BA-48A5-B493-B5543E64797D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEF7D57D-80BA-48A5-B493-B5543E64797D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7760A270-F6A7-4C33-BB53-E318AB991858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7760A270-F6A7-4C33-BB53-E318AB991858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7760A270-F6A7-4C33-BB53-E318AB991858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7760A270-F6A7-4C33-BB53-E318AB991858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
