@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryWebAPI", "Reposit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryDataAccess", "RepositoryDataAccess\RepositoryDataAccess.csproj", "{663D2613-9FF5-46C5-B8FE-C2BF92F9F722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryManagement", "RepositoryManagement1\RepositoryManagement.csproj", "{B26494C9-B5C2-435E-BCFD-F9FF651BA996}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryManagement", "RepositoryManagement\RepositoryManagement.csproj", "{B26494C9-B5C2-435E-BCFD-F9FF651BA996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
