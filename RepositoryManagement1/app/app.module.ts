@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
+﻿import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -11,9 +10,10 @@ import { AppRoutingModule } from './routing.module';
 import { DataTableModule, SharedModule } from 'primeng/primeng';
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, HttpModule, DataTableModule, SharedModule, AppRoutingModule],
+    imports: [BrowserModule, AppRoutingModule, DataTableModule, SharedModule, HttpModule],
     declarations: [AppComponent, RepositoryComponent],
     bootstrap: [AppComponent],
     providers: [RepositoryService]
 })
-export class AppModule { }
+
+export class AppModule {}

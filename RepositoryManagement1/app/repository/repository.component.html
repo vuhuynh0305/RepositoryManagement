@@ -1,0 +1,12 @@
+﻿<div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+    <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+    <input #gb type="text" pInputText size="50" placeholder="Tìm">
+</div>
+<p-dataTable [value]="repository" [responsive]="true" [rows]="10" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,20]" [editable]="true" [globalFilter]="gb">
+    <p-column field="Name" header="Name" [editable]="true"></p-column>
+    <p-column field="Quantity" header="Quantity" [editable]="true"></p-column>
+    <p-column field="Type" header="Type" [editable]="true"></p-column>
+    <p-column field="Piece" header="Piece" [editable]="true"></p-column>
+    <p-column field="LeftPiece" header="LeftPiece" [editable]="true"></p-column>
+    <p-column field="Repository" header="Repository"></p-column>
+</p-dataTable>

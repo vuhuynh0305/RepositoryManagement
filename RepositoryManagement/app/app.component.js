@@ -11,11 +11,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
+        this.routerLink = [
+            { repo: 'n', name: 'Chợ Nhà' },
+            { repo: 'm', name: 'Chợ' },
+            { repo: 't', name: 'Chợ Tâm' }
+        ];
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <repository></repository>\n    ",
+            template: "\n    <div class=\"navbar navbar-inverse navbar-fixed-top\">\n        <div class=\"container\">\n            <div class=\"navbar-header\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                    <span class=\"icon-bar\"></span>\n                </button>\n            </div>\n            <div class=\"navbar-collapse collapse\">\n                <ul class=\"nav navbar-nav\">\n                    <li *ngFor=\"let router of routerLink\"><a [routerLink]=\"['repository',router.repo]\" routerLinkActive='active'>{{router.name}}</a></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div class=\"container body-content\">\n        <router-outlet></router-outlet>\n        <hr />\n        <footer>\n            regre\n        </footer>\n    </div>\n    \n    ",
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

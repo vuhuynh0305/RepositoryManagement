@@ -18,11 +18,15 @@ var RepositoryComponent = (function () {
     }
     RepositoryComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.route.params.subscribe(function (params) {
-            var repository = params['id'];
-            _this.repositoryService.getList().subscribe(function (res) {
-                _this.repository = res.filter(function (repo) { return repo.Repository == repository; });
-            });
+        //this.route.params.subscribe(params => {
+        //    let repository = 't';
+        //    this.repositoryService.getList().subscribe(res => {
+        //        this.repository = res.filter(repo => repo.Repository == repository);
+        //    });
+        //})
+        var repository = 't';
+        this.repositoryService.getList().subscribe(function (res) {
+            _this.repository = res.filter(function (repo) { return repo.Repository == repository; });
         });
     };
     RepositoryComponent = __decorate([

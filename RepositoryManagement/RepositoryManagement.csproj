@@ -226,6 +226,7 @@
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\repository\repository.component.ts" />
     <TypeScriptCompile Include="app\repository\repository.service.ts" />
+    <TypeScriptCompile Include="app\routing.module.ts" />
     <TypeScriptCompile Include="Models\repository.model.ts" />
   </ItemGroup>
   <ItemGroup>
